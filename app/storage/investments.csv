@@ -1,0 +1,10 @@
+investment_id,user_id,asset_type,amount
+1,1,Mutual Fund,151959
+2,1,Stocks,244419
+3,1,Fixed Deposit,77492
+4,2,Mutual Fund,368866
+5,2,Stocks,315966
+6,2,Fixed Deposit,103972
+7,3,Mutual Fund,151578
+8,3,Stocks,132026
+9,3,Fixed Deposit,194202
