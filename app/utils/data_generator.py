@@ -47,7 +47,7 @@ def generate_synthetic_data_if_missing() -> None:
 
     users = pd.DataFrame(
         [
-            {"user_id": 1, "name": "Naveen Kumar", "age": 30, "city": "Bengaluru"},
+            {"user_id": 1, "name": "Suresh HB", "age": 30, "city": "Bengaluru"},
             {"user_id": 2, "name": "Asha Verma", "age": 27, "city": "Mumbai"},
             {"user_id": 3, "name": "Rohan Iyer", "age": 35, "city": "Pune"},
         ]
