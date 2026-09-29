@@ -45,27 +45,34 @@ finance-advisor/
 ```
 
 ## Setup
-1. Create and activate a Python 3.12+ virtual environment.
-2. Install dependencies:
-   ```bash
+1. Open PowerShell in the project root:
+   ```powershell
+   cd "C:\Users\Suresh\Desktop\COP-Final\Finance-Advisor-Agent"
+   ```
+2. Create and activate a virtual environment:
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
+3. Install dependencies:
+   ```powershell
    pip install -r requirements.txt
    ```
-3. Ensure the LLM endpoint is reachable:
-   - Base URL: `http://34.207.216.209:11434/v1`
+4. Ensure the LLM endpoint is reachable:
+   - Base URL: `http://98.90.16.11:11434/v1`
    - Model default in config: `llama3.2:latest`
-4. Runtime mode:
+5. Runtime mode:
    - Default is AI-first mode (`llm_enabled = True` in `app/config.py`).
-   - Strict AI mode is enabled by default (`llm_strict_mode = True`), so chat responses are generated through the configured LLM path and silent deterministic fallback is minimized.
-   - To allow deterministic fallback during LLM outages, set `llm_strict_mode = False`.
+   - Strict AI mode is disabled by default (`llm_strict_mode = False`), allowing graceful fallback during LLM outages.
 
 ## Run Instructions
-1. Start FastAPI:
-   ```bash
-   uvicorn app.main:app --reload
+1. Start FastAPI from the project root:
+   ```powershell
+   .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000
    ```
 2. In another terminal, start Streamlit:
-   ```bash
-   streamlit run frontend/streamlit_app.py
+   ```powershell
+   .\.venv\Scripts\python.exe -m streamlit run frontend/streamlit_app.py --server.address 0.0.0.0 --server.port 8501 --server.headless true --browser.gatherUsageStats false
    ```
 3. Open:
    - API docs: `http://127.0.0.1:8000/docs`

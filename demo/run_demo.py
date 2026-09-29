@@ -95,9 +95,9 @@ def main() -> None:
         print("Could not connect to API.")
         print("Start backend first:")
         print(
-            "c:/Users/Naveen/Desktop/fin/.venv/Scripts/python.exe -m uvicorn "
+            "c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent/.venv/Scripts/python.exe -m uvicorn "
             "app.main:app --host 127.0.0.1 --port 8000 --app-dir "
-            "c:/Users/Naveen/Desktop/fin/finance-advisor"
+            "c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent"
         )
         print(f"Error: {exc}")
 

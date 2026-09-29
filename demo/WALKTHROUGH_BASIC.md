@@ -43,13 +43,13 @@ This is implemented in `app/graph/workflow.py`.
 From project root (`finance-advisor`):
 
 ```powershell
-c:/Users/Naveen/Desktop/fin/.venv/Scripts/python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --app-dir c:/Users/Naveen/Desktop/fin/finance-advisor
+c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent/.venv/Scripts/python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --app-dir c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent
 ```
 
 In another terminal:
 
 ```powershell
-c:/Users/Naveen/Desktop/fin/.venv/Scripts/python.exe -m streamlit run c:/Users/Naveen/Desktop/fin/finance-advisor/frontend/streamlit_app.py --server.port 8501 --server.headless true
+c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent/.venv/Scripts/python.exe -m streamlit run c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent/frontend/streamlit_app.py --server.port 8501 --server.headless true
 ```
 
 Open:
@@ -61,7 +61,7 @@ Open:
 With backend running:
 
 ```powershell
-c:/Users/Naveen/Desktop/fin/.venv/Scripts/python.exe demo/run_demo.py
+c:/Users/Suresh/Desktop/COP-Final/Finance-Advisor-Agent/.venv/Scripts/python.exe demo/run_demo.py
 ```
 
 The script will:
