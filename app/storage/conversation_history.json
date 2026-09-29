@@ -1,1 +1,1525 @@
-[]
+[
+  {
+    "timestamp": "2026-09-29T14:53:01.690122",
+    "user_id": 1,
+    "user_message": "How much did I spend this month?",
+    "assistant_answer": "**Concise Answer:** Your total spending this month is Rs 78,745.\n\n**Key Financial Insight:** You spent approximately 95% of your budgeted amount for the month, indicating that you are on track with your expenses.\n\n**Risk Warning:** None, as your spending is currently under control and within the allocated budget.\n\n**Next Best Action:**\n\n1. Review your Rent category to ensure it's necessary and consider exploring options to reduce it.\n2. Monitor your spending in other categories to avoid any surprises or unexpected increases.\n3. Consider reviewing your budget regularly to adjust for any changes in income, expenses, or financial goals.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T14:55:15.370772",
+    "user_id": 1,
+    "user_message": "how much did i spend this month?",
+    "assistant_answer": "**Concise answer:** Your total spending this month is Rs 78,745.\n\n**Key financial insight:** You spent approximately 95% of your budgeted amount for the month, indicating that you are on track with your expenses but should be mindful of overspending in the future.\n\n**Risk warning:** None identified. However, it's essential to regularly review and adjust your budget to ensure it aligns with your changing financial goals and expenses.\n\n**Next best action:**\n\n1. Review your Rent category spending: With Rs 24,016 being the top expense, consider negotiating a lower rent or exploring alternative accommodation options.\n2. Monitor your spending habits: Keep track of your daily expenses to identify areas where you can make adjustments and reduce unnecessary spending.\n3. Rebalance your budget (if necessary): If you feel that your spending is not aligned with your financial goals, adjust your budget limits for the next month to ensure you're staying on track.\n\nBy taking these steps, you'll be better equipped to manage your finances effectively and maintain a healthy balance between spending and saving.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:01:49.922500",
+    "user_id": 1,
+    "user_message": "how much did i spend this month?",
+    "assistant_answer": "**Concise answer:** You spent \u20b978,745 this month.\n\n**Key financial insight:** Your top spending category is Rent, accounting for approximately 30% of your total spending.\n\n**Risk warning:** None, but it's essential to review your budget regularly to ensure you're on track with your financial goals.\n\n**Next best action:**\n\n1. Review your rent expenses and consider negotiating a better deal or exploring alternative housing options.\n2. Analyze your other categories to identify areas for reduction or optimization.\n3. Schedule a follow-up review of your budget in 30 days to assess progress and make adjustments as needed.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:16:00.215145",
+    "user_id": 1,
+    "user_message": "how much did i spend this month?",
+    "assistant_answer": "**Concise Answer:**\nThe total spending for the month is Rs 78,745.\n\n**Key Financial Insight:**\nRent remains the top spending category, accounting for approximately 30% of the total spending, indicating a significant expense that should be closely monitored and potentially optimized.\n\n**Risk Warning:**\nOver-reliance on rent payments can lead to financial instability if rent increases or other unexpected expenses arise. It is essential to explore options for reducing rent costs or building an emergency fund to mitigate this risk.\n\n**Next Best Action:**\nReview the rent payment schedule and consider negotiating a lower rate with the landlord, exploring alternative accommodation options, or investing in rent insurance to minimize potential financial losses due to rent increases.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "transaction_search": [
+        {
+          "transaction_id": 6,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 5781
+        },
+        {
+          "transaction_id": 23,
+          "user_id": 1,
+          "date": "2026-07-11 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11169
+        },
+        {
+          "transaction_id": 25,
+          "user_id": 1,
+          "date": "2026-07-02 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 4988
+        },
+        {
+          "transaction_id": 29,
+          "user_id": 1,
+          "date": "2026-07-05 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4854
+        },
+        {
+          "transaction_id": 46,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Medical",
+          "description": "Medical payment",
+          "amount": 4695
+        },
+        {
+          "transaction_id": 47,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4009
+        },
+        {
+          "transaction_id": 49,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 4284
+        },
+        {
+          "transaction_id": 62,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 2741
+        },
+        {
+          "transaction_id": 66,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5129
+        },
+        {
+          "transaction_id": 89,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 3459
+        },
+        {
+          "transaction_id": 91,
+          "user_id": 1,
+          "date": "2026-07-01 00:00:00",
+          "type": "expense",
+          "category": "Insurance",
+          "description": "Insurance payment",
+          "amount": 5258
+        },
+        {
+          "transaction_id": 106,
+          "user_id": 1,
+          "date": "2026-07-17 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 1666
+        },
+        {
+          "transaction_id": 109,
+          "user_id": 1,
+          "date": "2026-07-04 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 2349
+        },
+        {
+          "transaction_id": 124,
+          "user_id": 1,
+          "date": "2026-07-09 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5310
+        },
+        {
+          "transaction_id": 126,
+          "user_id": 1,
+          "date": "2026-07-07 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 6167
+        },
+        {
+          "transaction_id": 136,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11408
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:18:40.060165",
+    "user_id": 1,
+    "user_message": "how much did i spend this month?",
+    "assistant_answer": "**Concise answer:** You spent \u20b978,745 this month.\n\n**Key financial insight:** Your top spending category is Rent, accounting for approximately 30% of your total spending.\n\n**Risk warning:** None identified in this analysis.\n\n**Next best action:**\nReview your budget to identify areas where you can optimize spending and allocate funds towards savings or debt repayment. Consider reviewing your rent expenses to see if there are any opportunities to negotiate a lower rate or explore alternative housing options.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:23:35.293231",
+    "user_id": 1,
+    "user_message": "how much did i spend this month?",
+    "assistant_answer": "**Concise Answer:**\nThe total spending for the month is Rs 78,745.\n\n**Key Financial Insight:**\nThe top spending category is Rent, accounting for approximately 30% of the total spending, indicating a significant expense that may warrant review and optimization.\n\n**Risk Warning:**\nNone identified in this analysis. However, it's essential to monitor rent payments regularly to ensure they align with budgeted amounts and adjust as needed to avoid financial strain.\n\n**Next Best Action:**\n\n1.  Review and categorize all expenses to identify areas for reduction or optimization.\n2.  Consider adjusting the budget for Rent to account for any upcoming increases or changes in payment schedules.\n3.  Prioritize building an emergency fund to cover unexpected expenses, such as rent payments.\n4.  Regularly review and adjust spending habits to ensure alignment with financial goals.\n\nBy taking these steps, you can better manage your finances and make informed decisions about your spending.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "transaction_search": [
+        {
+          "transaction_id": 6,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 5781
+        },
+        {
+          "transaction_id": 23,
+          "user_id": 1,
+          "date": "2026-07-11 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11169
+        },
+        {
+          "transaction_id": 25,
+          "user_id": 1,
+          "date": "2026-07-02 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 4988
+        },
+        {
+          "transaction_id": 29,
+          "user_id": 1,
+          "date": "2026-07-05 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4854
+        },
+        {
+          "transaction_id": 46,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Medical",
+          "description": "Medical payment",
+          "amount": 4695
+        },
+        {
+          "transaction_id": 47,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4009
+        },
+        {
+          "transaction_id": 49,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 4284
+        },
+        {
+          "transaction_id": 62,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 2741
+        },
+        {
+          "transaction_id": 66,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5129
+        },
+        {
+          "transaction_id": 89,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 3459
+        },
+        {
+          "transaction_id": 91,
+          "user_id": 1,
+          "date": "2026-07-01 00:00:00",
+          "type": "expense",
+          "category": "Insurance",
+          "description": "Insurance payment",
+          "amount": 5258
+        },
+        {
+          "transaction_id": 106,
+          "user_id": 1,
+          "date": "2026-07-17 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 1666
+        },
+        {
+          "transaction_id": 109,
+          "user_id": 1,
+          "date": "2026-07-04 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 2349
+        },
+        {
+          "transaction_id": 124,
+          "user_id": 1,
+          "date": "2026-07-09 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5310
+        },
+        {
+          "transaction_id": 126,
+          "user_id": 1,
+          "date": "2026-07-07 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 6167
+        },
+        {
+          "transaction_id": 136,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11408
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:27:19.410264",
+    "user_id": 1,
+    "user_message": "How much did i spend this month",
+    "assistant_answer": "**Concise Answer:** Your total spending this month is Rs 78,745.\n\n**Key Financial Insight:** The top spending category is Rent, accounting for approximately 30% of your total expenses, highlighting the importance of managing rent costs to achieve budget goals.\n\n**Risk Warning:** None identified in this analysis. However, it's essential to monitor and adjust your spending habits regularly to ensure you stay on track with your budget.\n\n**Next Best Action:**\n\n1. Review your Rent expenses: Consider negotiating a lower rent or exploring alternative accommodation options to reduce this significant expense.\n2. Track and optimize other categories: Analyze your spending in other categories, such as Shopping, Education, and Entertainment, to identify areas for reduction or optimization.\n3. Regularly review budget progress: Schedule regular budget reviews (e.g., monthly) to ensure you're on track with your financial goals and make adjustments as needed.\n\nBy taking these steps, you can refine your spending habits, optimize your budget, and achieve a better financial balance.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:30:57.643625",
+    "user_id": 1,
+    "user_message": "How much did I spend this month",
+    "assistant_answer": "**Concise Answer:** Your total spending this month is Rs 78,745.\n\n**Key Financial Insight:** The top spending category is Rent with Rs 24,016, indicating that managing rent expenses effectively could help reduce overall spending.\n\n**Risk Warning (if any):** None, but it's essential to review your budget regularly to ensure you're on track and make adjustments as needed.\n\n**Next Best Action:**\n\n1. Review your Rent expenses: Analyze why Rent is the top category and see if there are opportunities to negotiate a lower rate or explore alternative housing options.\n2. Track your spending: Monitor your daily expenses to identify areas where you can cut back and allocate that money towards other categories, such as Education or Entertainment.\n3. Adjust your budget: Consider revising your monthly budget to ensure it accurately reflects your spending habits and priorities.\n\nBy taking these steps, you'll be better equipped to manage your finances effectively and make the most of your budget.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:33:53.494759",
+    "user_id": 1,
+    "user_message": "How much did i spend this month",
+    "assistant_answer": "**Concise Answer:** Your total spending this month is Rs 78,745.\n\n**Key Financial Insight:** You spent approximately 95% of your budgeted amount for the month, indicating a relatively controlled expenditure pattern.\n\n**Risk Warning (if any):** None identified in this analysis. However, it's essential to review and adjust your budget regularly to ensure you're on track with your financial goals.\n\n**Next Best Action:**\n\n1. Review your Rent category spending: With Rs 24,016 being the top expense, consider exploring ways to reduce or optimize your rent payments (e.g., negotiating a lower rate, exploring alternative accommodations).\n2. Monitor and adjust other categories: Take a closer look at your Shopping, Education, Medical, Entertainment, Bills, Food, and Travel expenses to identify areas where you can make adjustments to stay within budget.\n3. Plan for the next month: Update your budget for the upcoming period to reflect any changes or adjustments made during this review.\n\nBy taking these steps, you'll be better equipped to manage your finances effectively and maintain a healthy balance between spending and saving.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:36:06.879176",
+    "user_id": 1,
+    "user_message": "Provide a dashboard summary for user 1 for month 2026-09. Include savings health, budget status, and one action.",
+    "assistant_answer": "**Dashboard Summary for User 1 (Month: 2026-09)**\n\n1. **Savings Health:** The user has a savings rate of 23.4%, which is within the recommended range. However, considering the top spending category is Rent with Rs 24,016, it's essential to review and adjust expenses to optimize savings.\n2. **Budget Status:** The budget is currently under control for the selected month, indicating that the user has been managing their finances effectively.\n3. **Next Best Action:**\n   - Review and adjust the rent expense to ensure it aligns with the user's financial goals and priorities.\n\n**Key Financial Insight:** The high rent expense (Rs 24,016) is dominating the user's spending, which may impact their ability to save and achieve long-term financial objectives.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "savings_calculator": {
+        "total_income": 102742.0,
+        "total_expense": 78745.0,
+        "savings": 23997.0,
+        "savings_rate": 23.356563041404684
+      },
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:36:22.784037",
+    "user_id": 1,
+    "user_message": "Summarize this month's financial report priorities for user 1 in month 2026-09. Keep it concise and actionable.",
+    "assistant_answer": "**Concise Answer:**\nUser 1's financial report priorities for September 2026 are:\n\n* Review and adjust budget categories to ensure alignment with goals.\n* Monitor spending, especially in the \"Rent\" category, which exceeds 30% of total income.\n\n**Key Financial Insight:**\nThe user is on track financially, but there is an opportunity to optimize spending by setting a category cap for Rent.\n\n**Risk Warning (if any):**\nNone identified in this analysis. However, it's essential to regularly review and adjust budget categories to ensure alignment with goals and avoid unexpected expenses.\n\n**Next Best Action:**\n\n1. Review the \"Rent\" category spending and consider setting a category cap to limit excessive spending.\n2. Verify that all other budget categories are aligned with financial goals and make adjustments as needed.\n3. Schedule regular reviews (e.g., monthly) to ensure ongoing financial progress toward goals.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "financial_report_generator": {
+        "report_path": "app\\storage\\reports\\report_user_1_2026-07_20260929153619.json",
+        "report": {
+          "month": "2026-07",
+          "totals": {
+            "total_income": 102742.0,
+            "total_expense": 78745.0,
+            "savings": 23997.0,
+            "savings_rate": 23.356563041404684
+          },
+          "spending": {
+            "total_spending": 78745.0,
+            "by_category": {
+              "Rent": 24016,
+              "Insurance": 11605,
+              "Shopping": 9954,
+              "Education": 8709,
+              "Medical": 6372,
+              "Entertainment": 6002,
+              "Bills": 5611,
+              "Food": 3735,
+              "Travel": 2741
+            }
+          },
+          "budget": {
+            "month": "2026-07",
+            "budget_limit": 82682.0,
+            "spent": 78745.0,
+            "is_exceeded": false,
+            "usage_pct": 95.23838320311555
+          },
+          "investments": {
+            "total": 473870.0,
+            "by_asset": {
+              "Fixed Deposit": 77492,
+              "Mutual Fund": 151959,
+              "Stocks": 244419
+            }
+          },
+          "goals": [
+            {
+              "goal_id": 1,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 10300,
+              "target_date": "2026-12-01",
+              "progress_pct": 3.4333333333333336
+            },
+            {
+              "goal_id": 2,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 17940,
+              "target_date": "2027-01-01",
+              "progress_pct": 5.9799999999999995
+            },
+            {
+              "goal_id": 3,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 6000,
+              "target_date": "2027-02-01",
+              "progress_pct": 2.0
+            },
+            {
+              "goal_id": 4,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 93505,
+              "target_date": "2027-03-01",
+              "progress_pct": 31.16833333333333
+            },
+            {
+              "goal_id": 5,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 3000,
+              "target_date": "2027-04-01",
+              "progress_pct": 1.0
+            },
+            {
+              "goal_id": 6,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 95682,
+              "target_date": "2027-05-01",
+              "progress_pct": 31.894
+            },
+            {
+              "goal_id": 7,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 29245,
+              "target_date": "2027-06-01",
+              "progress_pct": 9.748333333333333
+            },
+            {
+              "goal_id": 8,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 143982,
+              "target_date": "2027-07-01",
+              "progress_pct": 47.994
+            }
+          ],
+          "recommendations": [
+            "Set a category cap for Rent; it is currently your largest spend bucket."
+          ],
+          "risks": []
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:36:39.294947",
+    "user_id": 1,
+    "user_message": "Analyze spending patterns for user 1 in month 2026-09. Identify top category risk and give two reduction suggestions.",
+    "assistant_answer": "**Concise Answer:**\nUser 1's total spending in September 2026 is Rs 78,745, with Rent being the top category at Rs 24,016.\n\n**Key Financial Insight:**\nThe user's spending pattern indicates a significant allocation to rent, which may be a concern for their overall financial flexibility and ability to save or invest.\n\n**Risk Warning (if any):**\nWhile the budget is currently under control, relying heavily on rent payments can lead to reduced disposable income and limited opportunities for savings or debt repayment. This may impact the user's long-term financial goals.\n\n**Next Best Action:**\n\n1. **Review Rent Agreement:** Negotiate with the landlord to explore options for reducing rent, such as a temporary reduction or finding a more affordable accommodation.\n2. **Reassess Budget Allocation:** Consider allocating a smaller portion of their income towards rent and redirecting that amount towards savings, debt repayment, or investments to build wealth over time.\n\nBy taking these steps, User 1 can mitigate the risk associated with high rent payments and work towards achieving a more balanced financial situation.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:43:24.318973",
+    "user_id": 1,
+    "user_message": "How much did I spend this month?",
+    "assistant_answer": "**Concise Answer:**\nYour total spending for the month is Rs 78,745.\n\n**Key Financial Insight:**\nThe top spending category is Rent, accounting for approximately 30% of your total spending, indicating that rent payments are a significant expense in your budget.\n\n**Risk Warning:**\nRent payments can be subject to fluctuations due to factors like lease renewals or changes in rental rates. It's essential to review and adjust your rent budget regularly to ensure it aligns with your changing financial situation.\n\n**Next Best Action:**\nReview your Rent payment schedule to identify opportunities for cost savings, such as negotiating a lower rate or exploring alternative housing options. Consider allocating a portion of your excess funds towards building an emergency fund or paying off high-interest debt to mitigate potential rent-related financial shocks.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "transaction_search": [
+        {
+          "transaction_id": 6,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 5781
+        },
+        {
+          "transaction_id": 23,
+          "user_id": 1,
+          "date": "2026-07-11 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11169
+        },
+        {
+          "transaction_id": 25,
+          "user_id": 1,
+          "date": "2026-07-02 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 4988
+        },
+        {
+          "transaction_id": 29,
+          "user_id": 1,
+          "date": "2026-07-05 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4854
+        },
+        {
+          "transaction_id": 46,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Medical",
+          "description": "Medical payment",
+          "amount": 4695
+        },
+        {
+          "transaction_id": 47,
+          "user_id": 1,
+          "date": "2026-07-14 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 4009
+        },
+        {
+          "transaction_id": 49,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 4284
+        },
+        {
+          "transaction_id": 62,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Travel",
+          "description": "Travel payment",
+          "amount": 2741
+        },
+        {
+          "transaction_id": 66,
+          "user_id": 1,
+          "date": "2026-07-06 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5129
+        },
+        {
+          "transaction_id": 89,
+          "user_id": 1,
+          "date": "2026-07-08 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 3459
+        },
+        {
+          "transaction_id": 91,
+          "user_id": 1,
+          "date": "2026-07-01 00:00:00",
+          "type": "expense",
+          "category": "Insurance",
+          "description": "Insurance payment",
+          "amount": 5258
+        },
+        {
+          "transaction_id": 106,
+          "user_id": 1,
+          "date": "2026-07-17 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 1666
+        },
+        {
+          "transaction_id": 109,
+          "user_id": 1,
+          "date": "2026-07-04 00:00:00",
+          "type": "expense",
+          "category": "Shopping",
+          "description": "Shopping payment",
+          "amount": 2349
+        },
+        {
+          "transaction_id": 124,
+          "user_id": 1,
+          "date": "2026-07-09 00:00:00",
+          "type": "expense",
+          "category": "Entertainment",
+          "description": "Entertainment payment",
+          "amount": 5310
+        },
+        {
+          "transaction_id": 126,
+          "user_id": 1,
+          "date": "2026-07-07 00:00:00",
+          "type": "expense",
+          "category": "Education",
+          "description": "Education payment",
+          "amount": 6167
+        },
+        {
+          "transaction_id": 136,
+          "user_id": 1,
+          "date": "2026-07-10 00:00:00",
+          "type": "expense",
+          "category": "Rent",
+          "description": "Rent payment",
+          "amount": 11408
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:43:28.812594",
+    "user_id": 1,
+    "user_message": "Is my budget under control?",
+    "assistant_answer": "**Concise answer:** Your budget is currently under control for the month of July 2026.\n\n**Key financial insight:** The top spending category, Rent, accounts for approximately 29% of your total spending, indicating that managing rent payments and finding ways to reduce this expense could help optimize your budget further.\n\n**Risk warning:** While your budget is currently under control, it's essential to monitor your expenses closely, especially in categories like Rent, as fluctuations can quickly impact your ability to stay within budget.\n\n**Next best action:**\n\n1.  Review your rent payments and consider negotiating a lower rate or exploring alternative housing options.\n2.  Analyze your shopping habits and see if there are any areas where you can cut back on unnecessary expenses.\n3.  Create a plan to gradually reduce your spending in other categories, such as Entertainment and Food, to further optimize your budget.\n\nBy taking these steps, you'll be better equipped to maintain control over your budget and make the most of your financial resources.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:43:32.746680",
+    "user_id": 1,
+    "user_message": "What is my top expense category?",
+    "assistant_answer": "**Concise Answer:** Your top expense category is Rent, accounting for approximately 30% of your total spending.\n\n**Key Financial Insight:** You should prioritize reviewing and negotiating your rent to ensure it's aligned with your income and budget.\n\n**Risk Warning:** None identified in this analysis, but maintaining a close eye on rent payments can help prevent unexpected expenses or financial strain if there are changes in the lease agreement.\n\n**Next Best Action:**\n\n1. Review your current lease agreement and consider renegotiating the terms to ensure it's aligned with your income and budget.\n2. Create a plan to reduce unnecessary expenses and allocate that amount towards rent savings or debt repayment.\n3. Regularly monitor your rent payments and adjust as needed to maintain a healthy financial balance.\n\nBy taking these steps, you can optimize your finances and make the most of your budget.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:43:37.662991",
+    "user_id": 1,
+    "user_message": "How much can I save this month?",
+    "assistant_answer": "**Concise Answer:** Based on your income and expenses, you can save approximately $2,398 this month.\n\n**Key Financial Insight:** Your savings rate of 23.4% is relatively high, indicating that you're making a concerted effort to set aside funds for the future. However, it's essential to review your budget regularly to ensure you're not overspending in other areas.\n\n**Risk Warning:** None identified based on the provided analysis. However, it's crucial to maintain this savings rate consistently to avoid dipping into your savings when unexpected expenses arise.\n\n**Next Best Action:**\n\n1. **Review and adjust your budget**: Take a closer look at your income and expense categories to ensure you're allocating funds efficiently.\n2. **Consider increasing your emergency fund**: With a relatively high savings rate, consider building up your emergency fund to cover 3-6 months of living expenses.\n3. **Automate your savings**: Set up an automatic transfer from your checking account to your savings or investment accounts to maintain your savings rate and make saving easier.\n\nBy following these steps, you'll be well on your way to achieving your financial goals while maintaining a healthy savings rate.",
+    "analysis": {
+      "savings_calculator": {
+        "total_income": 102742.0,
+        "total_expense": 78745.0,
+        "savings": 23997.0,
+        "savings_rate": 23.356563041404684
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:22.394173",
+    "user_id": 1,
+    "user_message": "What are my biggest cost drivers this month?",
+    "assistant_answer": "**Concise Answer:** Your top cost drivers this month are Rent (Rs 24,016) and Shopping (Rs 9,954).\n\n**Key Financial Insight:** You're spending approximately 31% of your total budget on non-essential categories like Shopping.\n\n**Risk Warning:** None. However, it's essential to review your shopping habits to ensure you're not overspending in this category.\n\n**Next Best Action:**\n\n1. Review and adjust your budget for the next month to allocate funds more efficiently.\n2. Consider implementing a 30-day waiting period before making non-essential purchases to help curb impulse buying.\n3. Explore ways to reduce your shopping expenses, such as cooking at home or finding discounts on essential items.\n\nBy taking these steps, you can optimize your spending and stay within your budget.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:28.218814",
+    "user_id": 1,
+    "user_message": "Where should I cut expenses without affecting my goals?",
+    "assistant_answer": "**Concise Answer:** To cut expenses without affecting your goals, consider reducing non-essential categories like Entertainment and Travel.\n\n**Key Financial Insight:** Your total spending of Rs 78,745 is close to your budget limit of Rs 82,682 for the month, indicating a relatively tight control over expenses.\n\n**Risk Warning:** If you don't make adjustments, you risk exceeding your budget limit in future months, potentially impacting your long-term financial goals.\n\n**Next Best Action:**\n\n1. Review and adjust your Entertainment and Travel categories to reduce spending by 10-20% each.\n2. Consider implementing a \"50/30/20\" rule for discretionary spending: 50% for necessities, 30% for discretionary spending, and 20% for saving and debt repayment.\n3. Regularly review and update your budget to ensure it remains aligned with your changing financial goals and expenses.\n\nBy taking these steps, you can maintain a healthy balance between enjoying life now and securing your financial future.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:32.735107",
+    "user_id": 1,
+    "user_message": "Can you give me a 30-day cash flow view?",
+    "assistant_answer": "**Concise Answer:**\nHere's a 30-day cash flow view:\n\nIncome (Rs): 102742\nTotal Expense (Rs): 78745\nRemaining Balance (Rs): 23597\n\n**Key Financial Insight:**\nYour savings rate of 23.4% is relatively high, indicating that you're prioritizing saving over spending.\n\n**Risk Warning:**\nSince your top spending category is Rent with Rs 24,016, any increase in rent could significantly impact your cash flow. Additionally, if your income remains steady while expenses rise, it may lead to a decrease in your savings rate.\n\n**Next Best Action:**\nReview and adjust your budget to ensure that you're not overspending on non-essential categories like Entertainment (Rs 6002) or Travel (Rs 2741). Consider allocating some funds from these categories towards building an emergency fund or paying off high-interest debts.",
+    "analysis": {
+      "income_analyzer": {
+        "total_income": 102742.0,
+        "total_expense": 78745.0,
+        "savings": 23997.0,
+        "savings_rate": 23.356563041404684
+      },
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:37.245873",
+    "user_id": 1,
+    "user_message": "How much should I save and invest based on my current finances?",
+    "assistant_answer": "**Concise Answer:**\nBased on your current finances, you are saving 23.4% of your income, which is a good savings rate.\n\n**Key Financial Insight:**\nYour total savings and investments amount to $473,870, which is a significant portion of your net worth. However, it's essential to consider the liquidity and risk associated with these investments.\n\n**Risk Warning:**\nWhile having a substantial savings and investment portfolio is commendable, there are risks involved, such as market volatility and interest rate fluctuations. Fixed Deposit returns 4.74% APY, while Mutual Fund returns 7.59% and Stocks return 8.12%. However, these returns come with varying levels of risk.\n\n**Next Best Action:**\nConsider reviewing your investment portfolio to ensure it aligns with your risk tolerance and financial goals. You may also want to explore tax-efficient strategies for managing your savings and investments. It's essential to maintain a balanced approach between saving, investing, and enjoying your life.",
+    "analysis": {
+      "savings_calculator": {
+        "total_income": 102742.0,
+        "total_expense": 78745.0,
+        "savings": 23997.0,
+        "savings_rate": 23.356563041404684
+      },
+      "investment_summary": {
+        "total": 473870.0,
+        "by_asset": {
+          "Fixed Deposit": 77492,
+          "Mutual Fund": 151959,
+          "Stocks": 244419
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:42.128941",
+    "user_id": 1,
+    "user_message": "What are the key risks in my monthly budget?",
+    "assistant_answer": "**Concise Answer:** The top risk in your monthly budget is overspending on rent, which accounts for approximately 30% of your total expenses.\n\n**Key Financial Insight:** You are spending around 95% of your allocated budget for the month, indicating a relatively high usage percentage and potential room for optimization.\n\n**Risk Warning:** Since you're currently under control but close to exceeding your budget limit, it's essential to monitor your expenses closely and make adjustments to avoid overspending in the future.\n\n**Next Best Action:**\n\n1. **Review Rent Expenses**: Analyze your rent payment schedule and consider negotiating a lower rate or exploring alternative accommodation options.\n2. **Adjust Budget Allocation**: Reassess your budget categories and allocate more funds to other essential expenses, such as food, medical, or education.\n3. **Implement Expense Tracking**: Use a budgeting app or spreadsheet to track your daily expenses and identify areas where you can cut back on unnecessary spending.\n\nBy taking these steps, you can mitigate the risk of overspending and maintain a healthy financial balance.",
+    "analysis": {
+      "expense_analyzer": {
+        "total_spending": 78745.0,
+        "by_category": {
+          "Rent": 24016,
+          "Insurance": 11605,
+          "Shopping": 9954,
+          "Education": 8709,
+          "Medical": 6372,
+          "Entertainment": 6002,
+          "Bills": 5611,
+          "Food": 3735,
+          "Travel": 2741
+        }
+      },
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:45:46.446404",
+    "user_id": 1,
+    "user_message": "Give me a concise executive summary of my finances.",
+    "assistant_answer": "**Concise Executive Summary:**\nYour finances are currently under control, with a budget of $82,682 and total expenses of $78,745, leaving a surplus of $3,037.\n\n**Key Financial Insight:**\nYou have a relatively stable financial situation, but there is room for improvement in managing your largest expense category, Rent.\n\n**Risk Warning:**\nNone identified in the analysis results. However, it's essential to regularly review and adjust your budget to ensure you're on track with your financial goals.\n\n**Next Best Action:**\nReview your budget categories, particularly Rent, to identify areas where you can optimize spending or reduce expenses. Consider setting a category cap for Rent to help manage this significant expense bucket.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "financial_report_generator": {
+        "report_path": "app\\storage\\reports\\report_user_1_2026-07_20260929154543.json",
+        "report": {
+          "month": "2026-07",
+          "totals": {
+            "total_income": 102742.0,
+            "total_expense": 78745.0,
+            "savings": 23997.0,
+            "savings_rate": 23.356563041404684
+          },
+          "spending": {
+            "total_spending": 78745.0,
+            "by_category": {
+              "Rent": 24016,
+              "Insurance": 11605,
+              "Shopping": 9954,
+              "Education": 8709,
+              "Medical": 6372,
+              "Entertainment": 6002,
+              "Bills": 5611,
+              "Food": 3735,
+              "Travel": 2741
+            }
+          },
+          "budget": {
+            "month": "2026-07",
+            "budget_limit": 82682.0,
+            "spent": 78745.0,
+            "is_exceeded": false,
+            "usage_pct": 95.23838320311555
+          },
+          "investments": {
+            "total": 473870.0,
+            "by_asset": {
+              "Fixed Deposit": 77492,
+              "Mutual Fund": 151959,
+              "Stocks": 244419
+            }
+          },
+          "goals": [
+            {
+              "goal_id": 1,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 10300,
+              "target_date": "2026-12-01",
+              "progress_pct": 3.4333333333333336
+            },
+            {
+              "goal_id": 2,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 17940,
+              "target_date": "2027-01-01",
+              "progress_pct": 5.9799999999999995
+            },
+            {
+              "goal_id": 3,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 6000,
+              "target_date": "2027-02-01",
+              "progress_pct": 2.0
+            },
+            {
+              "goal_id": 4,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 93505,
+              "target_date": "2027-03-01",
+              "progress_pct": 31.16833333333333
+            },
+            {
+              "goal_id": 5,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 3000,
+              "target_date": "2027-04-01",
+              "progress_pct": 1.0
+            },
+            {
+              "goal_id": 6,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 95682,
+              "target_date": "2027-05-01",
+              "progress_pct": 31.894
+            },
+            {
+              "goal_id": 7,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 29245,
+              "target_date": "2027-06-01",
+              "progress_pct": 9.748333333333333
+            },
+            {
+              "goal_id": 8,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 143982,
+              "target_date": "2027-07-01",
+              "progress_pct": 47.994
+            }
+          ],
+          "recommendations": [
+            "Set a category cap for Rent; it is currently your largest spend bucket."
+          ],
+          "risks": []
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:48:02.030969",
+    "user_id": 1,
+    "user_message": "Give me an executive summary of my current financial position.\n",
+    "assistant_answer": "**Concise Answer:**\nYour current financial position is stable, with a budget that is under control for the selected month (2026-07). You have sufficient savings and investments to cover your goals.\n\n**Key Financial Insight:**\nYou are on track to meet your emergency fund goal, but there's room for improvement in managing your rent expenses, which currently account for the largest portion of your spending.\n\n**Risk Warning:**\nNone identified from the provided analysis results. However, it's essential to regularly review and adjust your budget to ensure you're addressing any emerging financial challenges.\n\n**Next Best Action:**\nReview and adjust your budget to set a category cap for rent, aiming to reduce this expense and allocate funds towards other areas of your spending. Consider implementing strategies like rent negotiation or exploring more affordable housing options if necessary.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "financial_report_generator": {
+        "report_path": "app\\storage\\reports\\report_user_1_2026-07_20260929154758.json",
+        "report": {
+          "month": "2026-07",
+          "totals": {
+            "total_income": 102742.0,
+            "total_expense": 78745.0,
+            "savings": 23997.0,
+            "savings_rate": 23.356563041404684
+          },
+          "spending": {
+            "total_spending": 78745.0,
+            "by_category": {
+              "Rent": 24016,
+              "Insurance": 11605,
+              "Shopping": 9954,
+              "Education": 8709,
+              "Medical": 6372,
+              "Entertainment": 6002,
+              "Bills": 5611,
+              "Food": 3735,
+              "Travel": 2741
+            }
+          },
+          "budget": {
+            "month": "2026-07",
+            "budget_limit": 82682.0,
+            "spent": 78745.0,
+            "is_exceeded": false,
+            "usage_pct": 95.23838320311555
+          },
+          "investments": {
+            "total": 473870.0,
+            "by_asset": {
+              "Fixed Deposit": 77492,
+              "Mutual Fund": 151959,
+              "Stocks": 244419
+            }
+          },
+          "goals": [
+            {
+              "goal_id": 1,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 10300,
+              "target_date": "2026-12-01",
+              "progress_pct": 3.4333333333333336
+            },
+            {
+              "goal_id": 2,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 17940,
+              "target_date": "2027-01-01",
+              "progress_pct": 5.9799999999999995
+            },
+            {
+              "goal_id": 3,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 6000,
+              "target_date": "2027-02-01",
+              "progress_pct": 2.0
+            },
+            {
+              "goal_id": 4,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 93505,
+              "target_date": "2027-03-01",
+              "progress_pct": 31.16833333333333
+            },
+            {
+              "goal_id": 5,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 3000,
+              "target_date": "2027-04-01",
+              "progress_pct": 1.0
+            },
+            {
+              "goal_id": 6,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 95682,
+              "target_date": "2027-05-01",
+              "progress_pct": 31.894
+            },
+            {
+              "goal_id": 7,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 29245,
+              "target_date": "2027-06-01",
+              "progress_pct": 9.748333333333333
+            },
+            {
+              "goal_id": 8,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 143982,
+              "target_date": "2027-07-01",
+              "progress_pct": 47.994
+            }
+          ],
+          "recommendations": [
+            "Set a category cap for Rent; it is currently your largest spend bucket."
+          ],
+          "risks": []
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T15:48:58.764376",
+    "user_id": 1,
+    "user_message": "Summarize this month's financial report priorities for user 1 in month 2026-09. Keep it concise and actionable.",
+    "assistant_answer": "**Concise Answer:**\nUser 1's financial report for September 2026 shows that their expenses are mostly under control, with only a small surplus. However, there is one area of concern - Rent, which accounts for the largest spend bucket.\n\n**Key Financial Insight:**\nThe user has a significant amount of savings and investments, but it's essential to review their budget categories to ensure they're not overspending on non-essential items like Rent.\n\n**Risk Warning (if any):**\nNone identified in this analysis. However, it's crucial to monitor the user's expenses closely to avoid any unexpected increases or changes that might impact their financial stability.\n\n**Next Best Action:**\n\n1. Review and adjust the budget category cap for Rent to ensure it aligns with the user's financial goals.\n2. Consider implementing a 50/30/20 rule, where 50% of income goes towards necessary expenses (Rent, Utilities, Food), 30% towards discretionary spending, and 20% towards savings and debt repayment.\n3. Regularly review and update the user's budget to ensure it remains aligned with their changing financial goals and priorities.\n\nBy taking these steps, the user can maintain control over their finances and make progress towards achieving their long-term goals.",
+    "analysis": {
+      "budget_checker": {
+        "month": "2026-07",
+        "budget_limit": 82682.0,
+        "spent": 78745.0,
+        "is_exceeded": false,
+        "usage_pct": 95.23838320311555
+      },
+      "financial_report_generator": {
+        "report_path": "app\\storage\\reports\\report_user_1_2026-07_20260929154854.json",
+        "report": {
+          "month": "2026-07",
+          "totals": {
+            "total_income": 102742.0,
+            "total_expense": 78745.0,
+            "savings": 23997.0,
+            "savings_rate": 23.356563041404684
+          },
+          "spending": {
+            "total_spending": 78745.0,
+            "by_category": {
+              "Rent": 24016,
+              "Insurance": 11605,
+              "Shopping": 9954,
+              "Education": 8709,
+              "Medical": 6372,
+              "Entertainment": 6002,
+              "Bills": 5611,
+              "Food": 3735,
+              "Travel": 2741
+            }
+          },
+          "budget": {
+            "month": "2026-07",
+            "budget_limit": 82682.0,
+            "spent": 78745.0,
+            "is_exceeded": false,
+            "usage_pct": 95.23838320311555
+          },
+          "investments": {
+            "total": 473870.0,
+            "by_asset": {
+              "Fixed Deposit": 77492,
+              "Mutual Fund": 151959,
+              "Stocks": 244419
+            }
+          },
+          "goals": [
+            {
+              "goal_id": 1,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 10300,
+              "target_date": "2026-12-01",
+              "progress_pct": 3.4333333333333336
+            },
+            {
+              "goal_id": 2,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 17940,
+              "target_date": "2027-01-01",
+              "progress_pct": 5.9799999999999995
+            },
+            {
+              "goal_id": 3,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 6000,
+              "target_date": "2027-02-01",
+              "progress_pct": 2.0
+            },
+            {
+              "goal_id": 4,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 93505,
+              "target_date": "2027-03-01",
+              "progress_pct": 31.16833333333333
+            },
+            {
+              "goal_id": 5,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 3000,
+              "target_date": "2027-04-01",
+              "progress_pct": 1.0
+            },
+            {
+              "goal_id": 6,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 95682,
+              "target_date": "2027-05-01",
+              "progress_pct": 31.894
+            },
+            {
+              "goal_id": 7,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 29245,
+              "target_date": "2027-06-01",
+              "progress_pct": 9.748333333333333
+            },
+            {
+              "goal_id": 8,
+              "user_id": 1,
+              "goal_name": "Emergency Fund",
+              "target_amount": 300000,
+              "current_amount": 143982,
+              "target_date": "2027-07-01",
+              "progress_pct": 47.994
+            }
+          ],
+          "recommendations": [
+            "Set a category cap for Rent; it is currently your largest spend bucket."
+          ],
+          "risks": []
+        }
+      }
+    }
+  }
+]

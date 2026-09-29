@@ -9,13 +9,13 @@ class AppConfig(BaseModel):
     reports_dir: Path = Path("app/storage/reports")
     logs_dir: Path = Path("app/logs")
     history_file: Path = Path("app/storage/conversation_history.json")
-    llm_base_url: str = "http://34.207.216.209:11434/v1"
+    llm_base_url: str = "http://98.90.16.11:11434/v1"
     llm_model: str = "llama3.2:latest"
     llm_api_key: str = Field(default="ollama")
-    llm_timeout_seconds: int = 45
-    llm_max_retries: int = 2
+    llm_timeout_seconds: int = 180
+    llm_max_retries: int = 3
     llm_enabled: bool = True
-    llm_strict_mode: bool = True
+    llm_strict_mode: bool = False
 
 
 config = AppConfig()
